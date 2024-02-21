@@ -1,0 +1,248 @@
+body{
+  font-family: "Inter", sans-serif;
+  background-color: black;
+}
+
+
+a {
+    text-decoration: none;
+    font-style: normal;
+  }
+  
+  li {
+    list-style: none;
+  }
+  
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  ul,
+  p {
+    margin: 0;
+    padding-left: 0px;
+  }
+  
+  img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+  }
+
+  .container{
+    width: 1181px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    }
+
+  /* header */
+  .header{
+
+  }
+
+.header link{
+    color: #FFF;
+
+
+font-size: 24px;
+font-style: normal;
+font-weight: 200;
+line-height: normal;
+}
+  /* hero */
+  .hero{
+  background-image: url(./img/oblozka.jpg);
+  background-repeat: no-repeat;
+  width: 1440px;
+  background-position: center;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 71px;
+  padding-bottom: 31px;
+  }
+
+  .hero-button{
+    border-radius: 17px;
+    background: #B47B48;
+    color: #FFF;
+
+
+font-size: 24px;
+font-style: normal;
+font-weight: 300;
+line-height: normal;
+
+
+  }
+
+  .hero-title{
+    color: #FFF;
+
+
+font-size: 70px;
+font-style: normal;
+font-weight: 200;
+line-height: normal;
+  }
+
+  .hero-text{
+    color: #FFF;
+
+    
+    font-size: 21px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal
+  }
+
+  .hero-img{
+
+  }
+
+  .hero-prise{
+    color: #FFF;
+
+font-size: 24px;
+font-style: normal;
+font-weight: 200;
+line-height: normal;
+  }
+
+.hero-product{
+  color: #FFF;
+
+
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+
+.hero-buy{
+  color: #FFF;
+
+font-size: 16px;
+font-style: normal;
+font-weight: 900;
+line-height: normal;
+background: #C85312;
+}
+
+  /* menu */
+  .menu{
+
+  }
+
+  .menu-title{
+    color: #ffffff;
+    
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 100;
+    line-height: normal;
+  }
+
+  .menu-text{
+    color: #FFF;
+
+
+font-size: 25.92px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+  }
+
+
+  .menu-button{
+    color: #FFF;
+
+font-size: 25.92px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+border-radius: 17px;
+background: #B47B48;
+  }
+
+  /* quality */
+.quality{
+
+}
+
+/* advantages */
+.advantages{
+background-image: url(./img/oblozka2.jpg);
+background-repeat: no-repeat;
+width: 1440px;
+background-position: center;
+margin-left: auto;
+margin-right: auto;
+padding-top: 54px;
+padding-bottom: 51px;
+background-size: cover;
+
+}
+
+.item{
+  
+}
+/* contact */
+.contact{
+
+}
+
+.contacnt-text{
+  
+  font-weight: 400;
+  font-size: 48px;
+  color: #fff;
+  font-family: "Italiana", sans-serif;
+}
+
+.contacnt-textD{
+  
+
+font-weight: 400;
+font-size: 40px;
+color: #fff;
+}
+
+.contacnt-paragraph{
+  
+  font-weight: 300;
+  font-size: 24px;
+  color: #fff;
+}
+
+/* footer */
+.footer{
+
+}
+
+.footer-title{
+  
+font-weight: 200;
+font-size: 40px;
+color: #fff;
+}
+
+.footer-text{
+  
+  font-weight: 300;
+  font-size: 24px;
+  text-align: center;
+  color: #fff;
+}
+
+
+.footer-paragraph{
+  
+  font-weight: 300;
+  font-size: 24px;
+  text-align: center;
+  color: #fff;
+}
