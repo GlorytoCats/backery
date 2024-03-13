@@ -41,13 +41,15 @@ a {
 
   /* header */
   .header{
-padding-top: 55px;
 
   }
 
   .header-list{
    gap: 20px;
    display: flex;
+   top: 0px;
+ position: absolute;
+
   }
 
 
@@ -64,12 +66,14 @@ line-height: normal;
   .hero{
   background-image: url(./img/oblozka.jpg);
   background-repeat: no-repeat;
-  width: 1440px;
+  max-width: 1440px;
   background-position: center;
   margin-left: auto;
   margin-right: auto;
-  padding-top: 71px;
+  padding-top: 155px;
   padding-bottom: 31px;
+  position: relative;
+  background-size: contain;
   }
 
   .hero-button{
@@ -119,11 +123,17 @@ line-height: normal;
     padding: 51px 19px 44px 12px;
     background-color: #272727;
     display: flex;
-
+align-items: center;
+gap: 6px;
   }
-
+  .hero-list > .item:hover,
+  .hero-list > .item:focus{
+    background-color: #ebad51;
+    cursor: pointer;
+  }
   .hero-img{
-  width: 162px;
+  width: 162px; 
+  object-fit: contain;
   }
 
   .hero-prise{
@@ -153,6 +163,14 @@ font-style: normal;
 font-weight: 900;
 line-height: normal;
 background: #C85312;
+padding: 10px 22px;
+border: none;
+}
+
+.hero-buy:focus,
+.hero-buy:focus{
+  background-color: #ebad51;
+  cursor: pointer;
 }
 
   /* menu */
@@ -167,6 +185,8 @@ background: #C85312;
     font-style: normal;
     font-weight: 100;
     line-height: normal;
+    display: flex;
+    justify-content: center;
   }
 
   .menu-text{
@@ -177,6 +197,9 @@ font-size: 25.92px;
 font-style: normal;
 font-weight: 800;
 line-height: normal;
+display: flex;
+justify-content: center;
+
   }
 
 
@@ -189,12 +212,76 @@ font-weight: 800;
 line-height: normal;
 border-radius: 17px;
 background: #B47B48;
+padding: 4px 30px ;
+display: flex;
+margin-left: auto;
+margin-right: auto;
+margin-top: 8px;
+
   }
+
+  .menu-button:hover,
+  .menu-button:focus{
+    background-color: #ebad51;
+    cursor: pointer;
+  }
+
+  .menu-list {
+    margin-top: -7px;
+    margin-left: -198px;
+    justify-content: center;
+    padding-right: 0px;
+    flex-wrap: wrap;
+    display: flex;
+    }
+    .menu-list > .item {
+      max-width: 328px;
+      flex-basis: calc((100% - 198px * 2) / 2);
+      margin-top: 7px;
+      margin-left: 198px;
+      }    
 
   /* quality */
 .quality{
 
+padding-top: 104px;
+padding-bottom: 44px;
+
+
+
+
 }
+
+.quality-list{
+display: flex;
+gap: 89px;
+
+}
+
+.quality-list > .item {
+  width: 100%;
+  }
+
+.quality-text{
+  font-weight: 500;
+font-size: 24px;
+color: #fff;
+background-color: #f2f2f24d;
+padding: 32px 4px 52px 10px;
+}
+
+.quality-title{
+  font-family: "Italiana", sans-serif;
+  font-weight: 400;
+  font-size: 64px;
+  color: #fff;
+  display: flex;
+  justify-content: end;
+  
+
+}
+
+
 
 /* advantages */
 .advantages{
@@ -236,20 +323,25 @@ text-align: center;
 
 /* contact */
 .contact{
-
+padding-top: 62px;
+padding-bottom: 50px;
 }
-
+.contact > .container{
+ display: flex;
+ gap: 86px;
+}
 .contacnt-text{
-  
+  margin-bottom: 44px;
   font-weight: 400;
   font-size: 48px;
   color: #fff;
   font-family: "Italiana", sans-serif;
+
 }
 
 .contacnt-textD{
   
-
+margin-bottom: 44px;
 font-weight: 400;
 font-size: 40px;
 color: #fff;
@@ -262,10 +354,20 @@ color: #fff;
   color: #fff;
 }
 
+
+
+
 /* footer */
 .footer{
-
+padding-top: 40px;
+padding-bottom: 44px;
 }
+
+.footer > .container{
+  display: flex;
+  gap: 143px;
+}
+
 
 .footer-title{
   
@@ -278,7 +380,7 @@ color: #fff;
   
   font-weight: 300;
   font-size: 24px;
-  text-align: center;
+  text-align: start;
   color: #fff;
 }
 
@@ -287,6 +389,8 @@ color: #fff;
   
   font-weight: 300;
   font-size: 24px;
-  text-align: center;
+  text-align: start;
   color: #fff;
 }
+
+
